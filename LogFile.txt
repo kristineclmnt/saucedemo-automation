@@ -1,0 +1,70 @@
+01 Apr 2022 10:19:02  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+01 Apr 2022 10:19:02  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:22:27  INFO logger - Scenario failed and screenshot saved in outputFiles folder
+01 Apr 2022 10:22:27  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:25:35  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:25:36  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:26:03  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:26:06  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:43:58  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:44:06  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:44:06  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:44:13  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:44:20  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:44:26  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:44:33  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:45:51  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:45:52  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:46:00  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:46:00  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:46:08  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:46:09  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:46:17  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:46:18  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:46:25  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:46:27  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:47:08  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:47:14  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:47:14  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:47:21  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:47:27  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:47:35  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:47:43  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:47:50  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:47:51  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:47:58  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:47:59  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:48:05  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:48:05  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:48:12  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:48:12  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:48:22  INFO logger - Swag Labs page loaded successfully
+01 Apr 2022 10:48:24  INFO logger - Shutting down driver
+----------------------------------------------
+01 Apr 2022 10:48:28  INFO logger - Shutting down driver
+----------------------------------------------

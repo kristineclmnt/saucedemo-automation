@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: 1_Login.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: User Login</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Validation of Login Screen</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  the login page UI is validated (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Login Success - Standard User</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  a user logs in with &quot;STANDARDUSER&quot; and &quot;PASSWORD&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  user is redirected to the Saucedemo homepage (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Login Failed - Locked Out User</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  a user logs in with &quot;LOCKEDUSER&quot; and &quot;PASSWORD&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  a &quot;LOCKED&quot; error message will be displayed (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Login Failed - Invalid User</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  a user logs in with &quot;INVALIDUSER&quot; and &quot;PASSWORD&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  a &quot;INCORRECT&quot; error message will be displayed (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Login Failed - Missing Username</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  a user logs in with &quot;EMPTY&quot; and &quot;PASSWORD&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  a &quot;MISSING USERNAME&quot; error message will be displayed (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Login Failed - Missing Password</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  a user logs in with &quot;STANDARDUSER&quot; and &quot;EMPTY&quot; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  a &quot;MISSING PASSWORD&quot; error message will be displayed (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: 2_Homepage.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Homepage</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Validation of Homepage</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  the user has logged in successfully (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  the homepage page UI is validated (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Filter - By Name(Z to A)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  the user has logged in successfully (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  the user filters the products by Name Z to A (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  the products will be displayed in a descending name order (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Filter - By Price (High to Low)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  the user has logged in successfully (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  the user filters the products by Price High to Low (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  the products will be displayed in a descending price order (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Filter - By Price (Low to High)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  the user has logged in successfully (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  the user filters the products by Price Low to High (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  the products will be displayed in a ascending price order (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Add To Cart</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  the user has logged in successfully (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  the user adds products to the cart (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  the user&#x27;s cart is updated (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: 3_Checkout.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Checkout</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Checkout multiple products</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Test-Suite" duration-ms="88968" started-at="2022-04-01T02:47:01Z" finished-at="2022-04-01T02:48:30Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:framework.TestRunner@548a9f61]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="selenium-bdd-framework" duration-ms="88968" started-at="2022-04-01T02:47:01Z" finished-at="2022-04-01T02:48:30Z">
+      <class name="framework.TestRunner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:framework.TestRunner@548a9f61]" name="run_cukes" duration-ms="88959" started-at="2022-04-01T10:47:01Z" description="Runs Cucumber Features" finished-at="2022-04-01T10:48:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: 1_Login.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: User Login</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Validation of Login Screen</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  the login page UI is validated (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Login Success - Standard User</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  a user logs in with &quot;STANDARDUSER&quot; and &quot;PASSWORD&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  user is redirected to the Saucedemo homepage (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Login Failed - Locked Out User</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  a user logs in with &quot;LOCKEDUSER&quot; and &quot;PASSWORD&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  a &quot;LOCKED&quot; error message will be displayed (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Login Failed - Invalid User</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  a user logs in with &quot;INVALIDUSER&quot; and &quot;PASSWORD&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  a &quot;INCORRECT&quot; error message will be displayed (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Login Failed - Missing Username</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  a user logs in with &quot;EMPTY&quot; and &quot;PASSWORD&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  a &quot;MISSING USERNAME&quot; error message will be displayed (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Login Failed - Missing Password</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  a user logs in with &quot;STANDARDUSER&quot; and &quot;EMPTY&quot; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  a &quot;MISSING PASSWORD&quot; error message will be displayed (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: 2_Homepage.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Homepage</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Validation of Homepage</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  the user has logged in successfully (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  the homepage page UI is validated (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Filter - By Name(Z to A)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  the user has logged in successfully (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  the user filters the products by Name Z to A (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  the products will be displayed in a descending name order (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Filter - By Price (High to Low)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  the user has logged in successfully (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  the user filters the products by Price High to Low (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  the products will be displayed in a descending price order (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Filter - By Price (Low to High)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  the user has logged in successfully (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  the user filters the products by Price Low to High (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  the products will be displayed in a ascending price order (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Add To Cart</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  the user has logged in successfully (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  the user adds products to the cart (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  the user&#x27;s cart is updated (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: 3_Checkout.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Checkout</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Checkout multiple products</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- framework.TestRunner -->
+    </test> <!-- selenium-bdd-framework -->
+  </suite> <!-- Test-Suite -->
+</testng-results>

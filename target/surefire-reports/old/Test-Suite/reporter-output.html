@@ -1,0 +1,50 @@
+<h2>Reporter output</h2><table><tr><td><div "featureFile">Feature File: 1_Login.feature</div></td></tr>
+<tr><td><div "feature">Feature: User Login</div></td></tr>
+<tr><td><div "scenario">Scenario: Validation of Login Screen</div></td></tr>
+<tr><td><div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div></td></tr>
+<tr><td><div "result">Then  the login page UI is validated (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario: Login Success - Standard User</div></td></tr>
+<tr><td><div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div></td></tr>
+<tr><td><div "result">When  a user logs in with &quot;STANDARDUSER&quot; and &quot;PASSWORD&quot; (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  user is redirected to the Saucedemo homepage (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario: Login Failed - Locked Out User</div></td></tr>
+<tr><td><div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div></td></tr>
+<tr><td><div "result">When  a user logs in with &quot;LOCKEDUSER&quot; and &quot;PASSWORD&quot; (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  a &quot;LOCKED&quot; error message will be displayed (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario: Login Failed - Invalid User</div></td></tr>
+<tr><td><div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 3s)</div></td></tr>
+<tr><td><div "result">When  a user logs in with &quot;INVALIDUSER&quot; and &quot;PASSWORD&quot; (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  a &quot;INCORRECT&quot; error message will be displayed (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario: Login Failed - Missing Username</div></td></tr>
+<tr><td><div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 3s)</div></td></tr>
+<tr><td><div "result">When  a user logs in with &quot;EMPTY&quot; and &quot;PASSWORD&quot; (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  a &quot;MISSING USERNAME&quot; error message will be displayed (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario: Login Failed - Missing Password</div></td></tr>
+<tr><td><div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div></td></tr>
+<tr><td><div "result">When  a user logs in with &quot;STANDARDUSER&quot; and &quot;EMPTY&quot; (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  a &quot;MISSING PASSWORD&quot; error message will be displayed (passed : 0s)</div></td></tr>
+<tr><td><div "featureFile">Feature File: 2_Homepage.feature</div></td></tr>
+<tr><td><div "feature">Feature: Homepage</div></td></tr>
+<tr><td><div "scenario">Scenario: Validation of Homepage</div></td></tr>
+<tr><td><div "result">Given  the user has logged in successfully (passed : 3s)</div></td></tr>
+<tr><td><div "result">Then  the homepage page UI is validated (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario: Filter - By Name(Z to A)</div></td></tr>
+<tr><td><div "result">Given  the user has logged in successfully (passed : 3s)</div></td></tr>
+<tr><td><div "result">When  the user filters the products by Name Z to A (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  the products will be displayed in a descending name order (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario: Filter - By Price (High to Low)</div></td></tr>
+<tr><td><div "result">Given  the user has logged in successfully (passed : 3s)</div></td></tr>
+<tr><td><div "result">When  the user filters the products by Price High to Low (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  the products will be displayed in a descending price order (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario: Filter - By Price (Low to High)</div></td></tr>
+<tr><td><div "result">Given  the user has logged in successfully (passed : 3s)</div></td></tr>
+<tr><td><div "result">When  the user filters the products by Price Low to High (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  the products will be displayed in a ascending price order (passed : 0s)</div></td></tr>
+<tr><td><div "scenario">Scenario: Add To Cart</div></td></tr>
+<tr><td><div "result">Given  the user has logged in successfully (passed : 6s)</div></td></tr>
+<tr><td><div "result">When  the user adds products to the cart (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  the user&#x27;s cart is updated (passed : 0s)</div></td></tr>
+<tr><td><div "featureFile">Feature File: 3_Checkout.feature</div></td></tr>
+<tr><td><div "feature">Feature: Checkout</div></td></tr>
+<tr><td><div "scenario">Scenario: Checkout multiple products</div></td></tr>
+</table>

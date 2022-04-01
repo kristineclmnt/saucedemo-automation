@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  selenium-bdd-framework</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>selenium-bdd-framework</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 01 10:47:01 SGT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>88 seconds (88968 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='framework.TestRunner.run_cukes()'><b>run_cukes</b><br>Test class: framework.TestRunner<br>Test method: Runs Cucumber Features<br/>
+<a href="#Output-35534346" onClick='toggleBox("Output-35534346", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-35534346" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-35534346">
+<div "featureFile">Feature File: 1_Login.feature</div><br/>
+<div "feature">Feature: User Login</div><br/>
+<div "scenario">Scenario: Validation of Login Screen</div><br/>
+<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div><br/>
+<div "result">Then  the login page UI is validated (passed : 0s)</div><br/>
+<div "scenario">Scenario: Login Success - Standard User</div><br/>
+<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div><br/>
+<div "result">When  a user logs in with &quot;STANDARDUSER&quot; and &quot;PASSWORD&quot; (passed : 0s)</div><br/>
+<div "result">Then  user is redirected to the Saucedemo homepage (passed : 0s)</div><br/>
+<div "scenario">Scenario: Login Failed - Locked Out User</div><br/>
+<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div><br/>
+<div "result">When  a user logs in with &quot;LOCKEDUSER&quot; and &quot;PASSWORD&quot; (passed : 0s)</div><br/>
+<div "result">Then  a &quot;LOCKED&quot; error message will be displayed (passed : 0s)</div><br/>
+<div "scenario">Scenario: Login Failed - Invalid User</div><br/>
+<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 3s)</div><br/>
+<div "result">When  a user logs in with &quot;INVALIDUSER&quot; and &quot;PASSWORD&quot; (passed : 0s)</div><br/>
+<div "result">Then  a &quot;INCORRECT&quot; error message will be displayed (passed : 0s)</div><br/>
+<div "scenario">Scenario: Login Failed - Missing Username</div><br/>
+<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 3s)</div><br/>
+<div "result">When  a user logs in with &quot;EMPTY&quot; and &quot;PASSWORD&quot; (passed : 0s)</div><br/>
+<div "result">Then  a &quot;MISSING USERNAME&quot; error message will be displayed (passed : 0s)</div><br/>
+<div "scenario">Scenario: Login Failed - Missing Password</div><br/>
+<div "result">Given  user navigates to the &quot;SAUCEDEMOSITE&quot; website (passed : 2s)</div><br/>
+<div "result">When  a user logs in with &quot;STANDARDUSER&quot; and &quot;EMPTY&quot; (passed : 0s)</div><br/>
+<div "result">Then  a &quot;MISSING PASSWORD&quot; error message will be displayed (passed : 0s)</div><br/>
+<div "featureFile">Feature File: 2_Homepage.feature</div><br/>
+<div "feature">Feature: Homepage</div><br/>
+<div "scenario">Scenario: Validation of Homepage</div><br/>
+<div "result">Given  the user has logged in successfully (passed : 3s)</div><br/>
+<div "result">Then  the homepage page UI is validated (passed : 0s)</div><br/>
+<div "scenario">Scenario: Filter - By Name(Z to A)</div><br/>
+<div "result">Given  the user has logged in successfully (passed : 3s)</div><br/>
+<div "result">When  the user filters the products by Name Z to A (passed : 0s)</div><br/>
+<div "result">Then  the products will be displayed in a descending name order (passed : 0s)</div><br/>
+<div "scenario">Scenario: Filter - By Price (High to Low)</div><br/>
+<div "result">Given  the user has logged in successfully (passed : 3s)</div><br/>
+<div "result">When  the user filters the products by Price High to Low (passed : 0s)</div><br/>
+<div "result">Then  the products will be displayed in a descending price order (passed : 0s)</div><br/>
+<div "scenario">Scenario: Filter - By Price (Low to High)</div><br/>
+<div "result">Given  the user has logged in successfully (passed : 3s)</div><br/>
+<div "result">When  the user filters the products by Price Low to High (passed : 0s)</div><br/>
+<div "result">Then  the products will be displayed in a ascending price order (passed : 0s)</div><br/>
+<div "scenario">Scenario: Add To Cart</div><br/>
+<div "result">Given  the user has logged in successfully (passed : 6s)</div><br/>
+<div "result">When  the user adds products to the cart (passed : 0s)</div><br/>
+<div "result">Then  the user&#x27;s cart is updated (passed : 0s)</div><br/>
+<div "featureFile">Feature File: 3_Checkout.feature</div><br/>
+<div "feature">Feature: Checkout</div><br/>
+<div "scenario">Scenario: Checkout multiple products</div><br/>
+</div>
+</td>
+<td></td>
+<td>88</td>
+<td>framework.TestRunner@548a9f61</td></tr>
+</table><p>
+</body>
+</html>
