@@ -1,16 +1,8 @@
 package pageObjects;
 
-import framework.CommonMethods;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
-import java.io.IOException;
-
-public class HomepageElements extends CommonMethods {
-
-    public HomepageElements(WebDriver driver) throws IOException {
-        super(driver);
-    }
+public class HomepageElements {
 
     public static By lblProduct = By.xpath("//span[contains(text(),'Products')]");
     public static By btnAddToCart = By.xpath("(//button[text()='Add to cart'])[1]");

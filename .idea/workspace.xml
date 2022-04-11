@@ -4,14 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ab69adc-53b5-45f2-9a36-3dcceaf5cd3e" name="Changes" comment="" />
+    <list default="true" id="9ab69adc-53b5-45f2-9a36-3dcceaf5cd3e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/Assertions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/Assertions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/CommonMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logic/StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logic/StepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/HomepageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/HomepageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageObjects/LoginElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObjects/LoginElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testdata/TestDataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testdata/TestDataHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/framework/Assertions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/framework/Assertions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/framework/CommonMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/framework/CommonMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/framework/CreateSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/framework/CreateSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/framework/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/framework/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logger/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logger/Log.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logic/StepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logic/StepDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageEvents/LoginEvents.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageEvents/LoginEvents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/HomepageElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/HomepageElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageObjects/LoginElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageObjects/LoginElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testdata/TestDataHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testdata/TestDataHandler.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Git Repos" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -44,7 +64,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Git Repos" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: 2_Homepage">
+  <component name="RunManager" selected="Cucumber Java.Feature: 1_Login">
     <configuration name="Feature: 1_Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/1_Login.feature" />

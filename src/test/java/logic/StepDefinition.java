@@ -8,20 +8,16 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.WebDriver;
 import pageEvents.HomepageEvents;
 import pageEvents.LoginEvents;
-import pageObjects.LoginElements;
 
 import java.io.IOException;
 
 public class StepDefinition {
 
-    LoginElements loginElements;
-    LoginEvents loginEvents;
-    HomepageEvents homepageEvents;
-    WebDriver driver;
+    private LoginEvents loginEvents;
+    private HomepageEvents homepageEvents;
 
     public StepDefinition() throws IOException {
-        driver = CreateSession.getWebDriver();
-        loginElements = new LoginElements(driver);
+        WebDriver driver = CreateSession.getWebDriver();
         loginEvents = new LoginEvents(driver);
         homepageEvents = new HomepageEvents(driver);
     }
